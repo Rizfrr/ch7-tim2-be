@@ -11,7 +11,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "build": "npm run db:migrate",
-    "develop": "nodemon -q bin/www",
+    "develop": "nodemon ./bin/www",
     "dev": "nodemon -L bin/www",
     "db:create": "./node_modules/.bin/sequelize-cli db:create",
     "db:drop": "./node_modules/.bin/sequelize-cli db:drop",
